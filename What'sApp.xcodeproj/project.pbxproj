@@ -56,15 +56,23 @@
 		2B3CFC5C216D168600BC8A05 /* What'sApp */ = {
 			isa = PBXGroup;
 			children = (
-				2B3CFC5D216D168600BC8A05 /* AppDelegate.swift */,
 				2B3CFC5F216D168600BC8A05 /* ViewController.swift */,
 				2B3CFC61216D168600BC8A05 /* Main.storyboard */,
-				2B3CFC67216D168800BC8A05 /* Assets.xcassets */,
-				2B3CFC69216D168800BC8A05 /* LaunchScreen.storyboard */,
 				2B3CFC6C216D168800BC8A05 /* Info.plist */,
+				2B3CFC72216D16A600BC8A05 /* Option Files */,
 				2B3CFC64216D168600BC8A05 /* What_sApp.xcdatamodeld */,
 			);
 			path = "What'sApp";
+			sourceTree = "<group>";
+		};
+		2B3CFC72216D16A600BC8A05 /* Option Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B3CFC5D216D168600BC8A05 /* AppDelegate.swift */,
+				2B3CFC67216D168800BC8A05 /* Assets.xcassets */,
+				2B3CFC69216D168800BC8A05 /* LaunchScreen.storyboard */,
+			);
+			path = "Option Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
