@@ -7,8 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B1441FC218488AA001B7E49 /* ChatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1441FB218488AA001B7E49 /* ChatsViewController.swift */; };
+		2B1441FE218488BC001B7E49 /* StoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1441FD218488BC001B7E49 /* StoriesViewController.swift */; };
+		2B144200218488C8001B7E49 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1441FF218488C8001B7E49 /* ContactsViewController.swift */; };
+		2B14420A2184986C001B7E49 /* RegistrationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1442062184986C001B7E49 /* RegistrationPresenter.swift */; };
+		2B14420B2184986C001B7E49 /* RegistrationContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1442072184986C001B7E49 /* RegistrationContract.swift */; };
+		2B14420C2184986C001B7E49 /* RegistrationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1442082184986C001B7E49 /* RegistrationResponse.swift */; };
+		2B14420D2184986C001B7E49 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1442092184986C001B7E49 /* RegisterViewController.swift */; };
+		2B14421021849881001B7E49 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B14420F21849881001B7E49 /* LoginViewController.swift */; };
+		2B14421521849890001B7E49 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B14421221849890001B7E49 /* UserRepository.swift */; };
+		2B14421E2184AEBB001B7E49 /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B14421D2184AEBB001B7E49 /* ContactCell.swift */; };
+		2B1442202184B2DC001B7E49 /* ContactPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B14421F2184B2DC001B7E49 /* ContactPresenter.swift */; };
 		2B3CFC5E216D168600BC8A05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3CFC5D216D168600BC8A05 /* AppDelegate.swift */; };
-		2B3CFC60216D168600BC8A05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3CFC5F216D168600BC8A05 /* ViewController.swift */; };
+		2B3CFC60216D168600BC8A05 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3CFC5F216D168600BC8A05 /* HomeViewController.swift */; };
 		2B3CFC63216D168600BC8A05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B3CFC61216D168600BC8A05 /* Main.storyboard */; };
 		2B3CFC66216D168600BC8A05 /* What_sApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2B3CFC64216D168600BC8A05 /* What_sApp.xcdatamodeld */; };
 		2B3CFC68216D168800BC8A05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B3CFC67216D168800BC8A05 /* Assets.xcassets */; };
@@ -16,9 +27,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B1441FB218488AA001B7E49 /* ChatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsViewController.swift; sourceTree = "<group>"; };
+		2B1441FD218488BC001B7E49 /* StoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesViewController.swift; sourceTree = "<group>"; };
+		2B1441FF218488C8001B7E49 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		2B1442062184986C001B7E49 /* RegistrationPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationPresenter.swift; sourceTree = "<group>"; };
+		2B1442072184986C001B7E49 /* RegistrationContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationContract.swift; sourceTree = "<group>"; };
+		2B1442082184986C001B7E49 /* RegistrationResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationResponse.swift; sourceTree = "<group>"; };
+		2B1442092184986C001B7E49 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		2B14420F21849881001B7E49 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2B14421221849890001B7E49 /* UserRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
+		2B14421D2184AEBB001B7E49 /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
+		2B14421F2184B2DC001B7E49 /* ContactPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactPresenter.swift; sourceTree = "<group>"; };
 		2B3CFC5A216D168600BC8A05 /* What'sApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "What'sApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B3CFC5D216D168600BC8A05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2B3CFC5F216D168600BC8A05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B3CFC5F216D168600BC8A05 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		2B3CFC62216D168600BC8A05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2B3CFC65216D168600BC8A05 /* What_sApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = What_sApp.xcdatamodel; sourceTree = "<group>"; };
 		2B3CFC67216D168800BC8A05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -37,6 +59,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B1442052184986C001B7E49 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				2B1442062184986C001B7E49 /* RegistrationPresenter.swift */,
+				2B1442072184986C001B7E49 /* RegistrationContract.swift */,
+				2B1442082184986C001B7E49 /* RegistrationResponse.swift */,
+				2B1442092184986C001B7E49 /* RegisterViewController.swift */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		2B14420E21849881001B7E49 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				2B14420F21849881001B7E49 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		2B14421121849890001B7E49 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				2B3CFC64216D168600BC8A05 /* What_sApp.xcdatamodeld */,
+				2B14421221849890001B7E49 /* UserRepository.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		2B14421C2184AEA1001B7E49 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				2B1441FF218488C8001B7E49 /* ContactsViewController.swift */,
+				2B14421D2184AEBB001B7E49 /* ContactCell.swift */,
+				2B14421F2184B2DC001B7E49 /* ContactPresenter.swift */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
 		2B3CFC51216D168600BC8A05 = {
 			isa = PBXGroup;
 			children = (
@@ -56,11 +116,16 @@
 		2B3CFC5C216D168600BC8A05 /* What'sApp */ = {
 			isa = PBXGroup;
 			children = (
-				2B3CFC5F216D168600BC8A05 /* ViewController.swift */,
+				2B3CFC5F216D168600BC8A05 /* HomeViewController.swift */,
 				2B3CFC61216D168600BC8A05 /* Main.storyboard */,
-				2B3CFC6C216D168800BC8A05 /* Info.plist */,
+				2B14421121849890001B7E49 /* Data */,
+				2B14420E21849881001B7E49 /* Login */,
+				2B1442052184986C001B7E49 /* Registration */,
 				2B3CFC72216D16A600BC8A05 /* Option Files */,
-				2B3CFC64216D168600BC8A05 /* What_sApp.xcdatamodeld */,
+				2B3CFC6C216D168800BC8A05 /* Info.plist */,
+				2B1441FB218488AA001B7E49 /* ChatsViewController.swift */,
+				2B1441FD218488BC001B7E49 /* StoriesViewController.swift */,
+				2B14421C2184AEA1001B7E49 /* Contacts */,
 			);
 			path = "What'sApp";
 			sourceTree = "<group>";
@@ -146,9 +211,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B3CFC60216D168600BC8A05 /* ViewController.swift in Sources */,
+				2B14420A2184986C001B7E49 /* RegistrationPresenter.swift in Sources */,
+				2B14420D2184986C001B7E49 /* RegisterViewController.swift in Sources */,
+				2B14421521849890001B7E49 /* UserRepository.swift in Sources */,
+				2B1442202184B2DC001B7E49 /* ContactPresenter.swift in Sources */,
+				2B14421E2184AEBB001B7E49 /* ContactCell.swift in Sources */,
+				2B1441FE218488BC001B7E49 /* StoriesViewController.swift in Sources */,
+				2B3CFC60216D168600BC8A05 /* HomeViewController.swift in Sources */,
+				2B14420C2184986C001B7E49 /* RegistrationResponse.swift in Sources */,
 				2B3CFC5E216D168600BC8A05 /* AppDelegate.swift in Sources */,
+				2B1441FC218488AA001B7E49 /* ChatsViewController.swift in Sources */,
 				2B3CFC66216D168600BC8A05 /* What_sApp.xcdatamodeld in Sources */,
+				2B14420B2184986C001B7E49 /* RegistrationContract.swift in Sources */,
+				2B144200218488C8001B7E49 /* ContactsViewController.swift in Sources */,
+				2B14421021849881001B7E49 /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
