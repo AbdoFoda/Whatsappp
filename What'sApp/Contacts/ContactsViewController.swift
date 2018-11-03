@@ -40,7 +40,9 @@ extension ContactsViewController : UITableViewDelegate , UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return contacts.count
     }
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        HomeViewController.singleTone?.gotoChat(with: contacts[indexPath.row])
+    }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = contactsTableView.dequeueReusableCell(withIdentifier: "ContactCell") as! ContactCell
         cell.nameLabel.text = contacts[indexPath.row].name

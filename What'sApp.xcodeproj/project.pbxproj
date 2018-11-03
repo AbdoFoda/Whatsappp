@@ -24,6 +24,9 @@
 		2B3CFC66216D168600BC8A05 /* What_sApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2B3CFC64216D168600BC8A05 /* What_sApp.xcdatamodeld */; };
 		2B3CFC68216D168800BC8A05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B3CFC67216D168800BC8A05 /* Assets.xcassets */; };
 		2B3CFC6B216D168800BC8A05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B3CFC69216D168800BC8A05 /* LaunchScreen.storyboard */; };
+		2BBD1041218DD27A009C008C /* ChatMessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBD1040218DD27A009C008C /* ChatMessagesViewController.swift */; };
+		2BBD1043218DD3E4009C008C /* ChatMessagesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBD1042218DD3E4009C008C /* ChatMessagesPresenter.swift */; };
+		2BBD1045218DDA10009C008C /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBD1044218DDA10009C008C /* MessageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +49,9 @@
 		2B3CFC67216D168800BC8A05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B3CFC6A216D168800BC8A05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B3CFC6C216D168800BC8A05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BBD1040218DD27A009C008C /* ChatMessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessagesViewController.swift; sourceTree = "<group>"; };
+		2BBD1042218DD3E4009C008C /* ChatMessagesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessagesPresenter.swift; sourceTree = "<group>"; };
+		2BBD1044218DDA10009C008C /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 		2B3CFC51216D168600BC8A05 = {
 			isa = PBXGroup;
 			children = (
+				2BBD1044218DDA10009C008C /* MessageCell.swift */,
+				2BBD1042218DD3E4009C008C /* ChatMessagesPresenter.swift */,
+				2BBD1040218DD27A009C008C /* ChatMessagesViewController.swift */,
 				2B3CFC5C216D168600BC8A05 /* What'sApp */,
 				2B3CFC5B216D168600BC8A05 /* Products */,
 			);
@@ -213,15 +222,18 @@
 			files = (
 				2B14420A2184986C001B7E49 /* RegistrationPresenter.swift in Sources */,
 				2B14420D2184986C001B7E49 /* RegisterViewController.swift in Sources */,
+				2BBD1041218DD27A009C008C /* ChatMessagesViewController.swift in Sources */,
 				2B14421521849890001B7E49 /* UserRepository.swift in Sources */,
 				2B1442202184B2DC001B7E49 /* ContactPresenter.swift in Sources */,
 				2B14421E2184AEBB001B7E49 /* ContactCell.swift in Sources */,
+				2BBD1043218DD3E4009C008C /* ChatMessagesPresenter.swift in Sources */,
 				2B1441FE218488BC001B7E49 /* StoriesViewController.swift in Sources */,
 				2B3CFC60216D168600BC8A05 /* HomeViewController.swift in Sources */,
 				2B14420C2184986C001B7E49 /* RegistrationResponse.swift in Sources */,
 				2B3CFC5E216D168600BC8A05 /* AppDelegate.swift in Sources */,
 				2B1441FC218488AA001B7E49 /* ChatsViewController.swift in Sources */,
 				2B3CFC66216D168600BC8A05 /* What_sApp.xcdatamodeld in Sources */,
+				2BBD1045218DDA10009C008C /* MessageCell.swift in Sources */,
 				2B14420B2184986C001B7E49 /* RegistrationContract.swift in Sources */,
 				2B144200218488C8001B7E49 /* ContactsViewController.swift in Sources */,
 				2B14421021849881001B7E49 /* LoginViewController.swift in Sources */,

@@ -20,6 +20,22 @@ class UserRepository  {
     static func logout() {
         loggedInUser = nil
     }
+    
+    static func getMessage(from friend: User,completion : ([Message])->Void){
+        if let curUser = loggedInUser {
+            let request :NSFetchRequest = Message.fetchRequest()
+            request.predicate = NSPredicate(format: "sender = %@ AND reciever = %@", curUser , friend)
+            do{
+                var result = try AppDelegate.viewContext.fetch(request)
+                result.sort { (message1, message2) -> Bool in
+                    return message1.time! < message2.time!
+                }
+                completion(result)
+            }catch{
+                print(error)
+            }
+        }
+    }
     static func getAllUsers() ->[User]? {
         let request : NSFetchRequest = User.fetchRequest()
         do{
@@ -68,6 +84,14 @@ class UserRepository  {
         }else{
             return false
         }
+    }
+    
+    static func sendMessage(to friend : User , text:String ) {
+        let message = Message(context: AppDelegate.viewContext)
+        message.text = text
+        message.sender = loggedInUser!
+        message.reciever = friend
+        message.time = Date()
     }
     
 }

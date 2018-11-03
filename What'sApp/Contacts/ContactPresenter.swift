@@ -14,7 +14,10 @@ class ContactPresenter {
     }
     
     func getContacts(completion:([User])->Void ) {
-        if let users = UserRepository.getAllUsers() {
+        if var users = UserRepository.getAllUsers() {
+            users.sort { (user1, user2) -> Bool in
+                return user1.name! < user2.name!
+            }
             completion(users)
         }
     }

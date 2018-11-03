@@ -12,8 +12,8 @@
         <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="profilePicture" optional="YES" attributeType="Binary" syncable="YES"/>
         <attribute name="status" optional="YES" attributeType="String" defaultValueString="Hey There! I'm using what'sapp" syncable="YES"/>
-        <relationship name="recievedMessages" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Message" inverseName="reciever" inverseEntity="Message" syncable="YES"/>
-        <relationship name="sentMessages" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Message" inverseName="sender" inverseEntity="Message" syncable="YES"/>
+        <relationship name="recievedMessages" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Message" inverseName="reciever" inverseEntity="Message" syncable="YES"/>
+        <relationship name="sentMessages" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Message" inverseName="sender" inverseEntity="Message" syncable="YES"/>
     </entity>
     <elements>
         <element name="Message" positionX="-304.58203125" positionY="-29.203125" width="128" height="120"/>

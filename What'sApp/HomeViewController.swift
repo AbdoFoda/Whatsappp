@@ -17,6 +17,12 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         HomeViewController.singleTone = self
     }
+    var gotoFriend : User!
+    func gotoChat(with friend : User){
+        gotoFriend = friend
+        performSegue(withIdentifier: "chatSegue", sender: self)
+    }
+    
     
     @IBAction func logoutButtonTapped(_ sender: UIBarButtonItem) {
         let mainStoryBoard = UIStoryboard(name: "Main", bundle: nil)
@@ -36,7 +42,9 @@ class HomeViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        
+        if let chatVC = segue.destination as? ChatMessagesViewController{
+            chatVC.friend = gotoFriend
+        }
     }
     
 }
